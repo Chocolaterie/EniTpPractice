@@ -13,8 +13,6 @@ Au clique sur un article, afficher une page avec les détails de l’article (ti
 
 ### Example OnClick sur un item de la listview
 
-
-
 ```kotlin
 // Adapter
 val arrayAdatper = ArrayAdapter(this, android.R.layout.simple_list_item_1, l

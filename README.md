@@ -25,3 +25,14 @@ findViewById<ListView>(R.id.listview).setOnItemClickListener { parent, view, pos
 }
 
 ```
+
+## Partie 2
+Rajouter un formulaire avec les champs suivants :
+- Titre
+- Contenu
+- Un bouton « Ajouter l’article », la chaîne de caractère doit être située en tant que constante dans un fichier strings xml
+
+Lors du clique du bouton, ajouter l’article à la liste view
+Rajouter un contrôle de surface pour empêcher l’ajout si nous avons plus de 6 articles existants.
+
+PS : Vous pouvez disposer le formulaire soit avant la liste ou après la liste, comme bon vous semble.

@@ -7,6 +7,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/form_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Le champ titre -->
+        <EditText
+            android:id="@+id/edt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!-- Le champ description/contenu -->
+        <EditText
+            android:id="@+id/edt_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!-- Bouton ajouter article -->
+        <Button
+            android:id="@+id/btn_add_article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add_article"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_error_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Impossible d'ajouter plus de 6 articles"
+        android:visibility="invisible"
+        />
     <ListView
         android:id="@+id/listview_1"
         android:layout_width="match_parent"

@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         // Ecouter l'evenement onclick du bouton ajouter
         findViewById<Button>(R.id.btn_add_article).setOnClickListener {
             // Si moins de 6
-            if (articles.size < 6 ) {
+            if (articles.size < 6) {
                 // Récupère les donnees
                 // la valeur du champ titre
                 val title = findViewById<EditText>(R.id.edt_title).text.toString()
